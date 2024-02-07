@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a</name>
+   <tag></tag>
+   <elementGuidId>61bfa036-425e-4ba5-989b-7e5f6758aa57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;countryListboxRegisterPage&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='countryListboxRegisterPage']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>46c0d3be-a06a-4d89-b5b3-a3420acc4a6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>countryListboxRegisterPage</value>
+      <webElementGuid>e01ad7ef-2c6e-4157-a0ec-d84d7a987c9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>538a0871-bbc7-44e3-a57a-0c153191ccf6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>secModel</value>
+      <webElementGuid>2bb40929-fad8-41fd-a97a-5f2d6f7e3192</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-options</name>
+      <type>Main</type>
+      <value>c as c.name for c in secSelectOptions</value>
+      <webElementGuid>198f4021-1ba2-440c-996f-20602c273924</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-pristine ng-untouched ng-valid ng-scope in-focus</value>
+      <webElementGuid>70413c12-a575-498b-915e-fd1900bb1802</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AfganistanAlbaniaAlgeriaAmerican SamoaAndoraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaireBosnia and HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundi CambodiaCameroonCanadaCanary IslandsCape Verde aranelleCayman IslandsCentral African RepublicChadChileChinaColombiaComoro IslandsCongoCook IslandsCosta RicaCroatiaCubaCyprusCzech RepublicDemocratic Republic of CongoDenmarkDjiboutiDominicaDominican RepublicDutch (Netherlands)); AntillesEast TimorEcuadorEgyptEl SalvadorEnglandEquatorial GuineaEritrea EstoniaEthiopiaFalkland IslandsFijiFinlandFranceFrench GuyanaFrench PolynesiaGabonaiseGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHawaiHeard IslandHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyIvory CostJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMacquarie IslandMadagascarMalawiMalaysiamaldives IslandsMaliMaltaMaroccoMarshal IslandsMartinique MauritaniaMauritiusMayotteMexicoMicronesiaMidway AtolMoldovaMonacoMongoliaMontenegroMontserratMozambiqueMyanmar (Burma));NamibiaNauruNepalNetherlandNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorfolk IslandsNorth KoreaNorthen IrelandNorwayOmanPakistanPalauPalestinian AuthorityPanamaParaguayPeruPhilippinesPolandPortugalPuerto RicoPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Helena IslandSaint Kitts and NevisSaint Vincent and the GrenadinesSamoaSan MarinoSao TomeSaudi ArabiaScotland SenegalSerbiaSeychelles IslandsSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth GeorgiaSouth KoreaSouth SudanSpainSri LankaSt. LuciaSudanSurinamSwazilandSwedenSwitzerlandSyriaTadzhikistanTaiwanTanzaniaThailandTogo (Togolese));TokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistan Turks and Caicos IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVaticanVaticanVenezuelaVietnamVirgin Islands (UK));Virgin Islands (USA));WalesWallis and Futuna IslandsYemenZambiaZanzibar Zimbabwe </value>
+      <webElementGuid>81b0b0e7-d3dc-4af3-ac76-7396d826bbd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formCover&quot;)/div[3]/div[@class=&quot;spliter&quot;]/sec-view[@class=&quot;ng-isolate-scope sec-view&quot;]/div[@class=&quot;inputContainer ng-scope&quot;]/select[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope in-focus&quot;]</value>
+      <webElementGuid>9c2278b9-93c5-4b73-a093-1827bbcbe7fe</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='countryListboxRegisterPage']</value>
+      <webElementGuid>d71fe95a-f79e-416c-bd49-1dd73bd1e7f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='formCover']/div[3]/div/sec-view/div/select</value>
+      <webElementGuid>a123397c-8cce-4baa-80fb-86f9f56c1b58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADDRESS'])[1]/following::select[1]</value>
+      <webElementGuid>e9a05439-aec9-4d96-a3c7-109a40ce2e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Use maximum 20 character'])[1]/following::select[1]</value>
+      <webElementGuid>1326b3f9-8ec2-48c8-8f0e-ea8b9355ab31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[2]/preceding::select[1]</value>
+      <webElementGuid>5d010be1-3ad7-4b6e-a4b5-6cfad8830365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[2]/preceding::select[1]</value>
+      <webElementGuid>49ae53cf-ada4-4998-a138-bf14b8d81092</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a404157f-212f-4e86-93fe-a034d938e119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'countryListboxRegisterPage' and (text() = 'AfganistanAlbaniaAlgeriaAmerican SamoaAndoraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaireBosnia and HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundi CambodiaCameroonCanadaCanary IslandsCape Verde aranelleCayman IslandsCentral African RepublicChadChileChinaColombiaComoro IslandsCongoCook IslandsCosta RicaCroatiaCubaCyprusCzech RepublicDemocratic Republic of CongoDenmarkDjiboutiDominicaDominican RepublicDutch (Netherlands)); AntillesEast TimorEcuadorEgyptEl SalvadorEnglandEquatorial GuineaEritrea EstoniaEthiopiaFalkland IslandsFijiFinlandFranceFrench GuyanaFrench PolynesiaGabonaiseGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHawaiHeard IslandHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyIvory CostJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMacquarie IslandMadagascarMalawiMalaysiamaldives IslandsMaliMaltaMaroccoMarshal IslandsMartinique MauritaniaMauritiusMayotteMexicoMicronesiaMidway AtolMoldovaMonacoMongoliaMontenegroMontserratMozambiqueMyanmar (Burma));NamibiaNauruNepalNetherlandNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorfolk IslandsNorth KoreaNorthen IrelandNorwayOmanPakistanPalauPalestinian AuthorityPanamaParaguayPeruPhilippinesPolandPortugalPuerto RicoPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Helena IslandSaint Kitts and NevisSaint Vincent and the GrenadinesSamoaSan MarinoSao TomeSaudi ArabiaScotland SenegalSerbiaSeychelles IslandsSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth GeorgiaSouth KoreaSouth SudanSpainSri LankaSt. LuciaSudanSurinamSwazilandSwedenSwitzerlandSyriaTadzhikistanTaiwanTanzaniaThailandTogo (Togolese));TokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistan Turks and Caicos IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVaticanVaticanVenezuelaVietnamVirgin Islands (UK));Virgin Islands (USA));WalesWallis and Futuna IslandsYemenZambiaZanzibar Zimbabwe ' or . = 'AfganistanAlbaniaAlgeriaAmerican SamoaAndoraAngolaAnguillaAntigua and BarbudaArgentinaArmeniaArubaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBermudaBhutanBoliviaBonaireBosnia and HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundi CambodiaCameroonCanadaCanary IslandsCape Verde aranelleCayman IslandsCentral African RepublicChadChileChinaColombiaComoro IslandsCongoCook IslandsCosta RicaCroatiaCubaCyprusCzech RepublicDemocratic Republic of CongoDenmarkDjiboutiDominicaDominican RepublicDutch (Netherlands)); AntillesEast TimorEcuadorEgyptEl SalvadorEnglandEquatorial GuineaEritrea EstoniaEthiopiaFalkland IslandsFijiFinlandFranceFrench GuyanaFrench PolynesiaGabonaiseGambiaGeorgiaGermanyGhanaGibraltarGreeceGreenlandGrenadaGuadeloupeGuamGuatemalaGuernseyGuineaGuinea BissauGuyanaHaitiHawaiHeard IslandHondurasHong KongHungaryIcelandIndiaIndonesiaIranIraqIrelandIsle of ManIsraelItalyIvory CostJamaicaJapanJerseyJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgMacauMacedoniaMacquarie IslandMadagascarMalawiMalaysiamaldives IslandsMaliMaltaMaroccoMarshal IslandsMartinique MauritaniaMauritiusMayotteMexicoMicronesiaMidway AtolMoldovaMonacoMongoliaMontenegroMontserratMozambiqueMyanmar (Burma));NamibiaNauruNepalNetherlandNew CaledoniaNew ZealandNicaraguaNigerNigeriaNorfolk IslandsNorth KoreaNorthen IrelandNorwayOmanPakistanPalauPalestinian AuthorityPanamaParaguayPeruPhilippinesPolandPortugalPuerto RicoPuerto RicoQatarReunionRomaniaRussiaRwandaSaint Helena IslandSaint Kitts and NevisSaint Vincent and the GrenadinesSamoaSan MarinoSao TomeSaudi ArabiaScotland SenegalSerbiaSeychelles IslandsSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth GeorgiaSouth KoreaSouth SudanSpainSri LankaSt. LuciaSudanSurinamSwazilandSwedenSwitzerlandSyriaTadzhikistanTaiwanTanzaniaThailandTogo (Togolese));TokelauTongaTrinidad and TobagoTunisiaTurkeyTurkmenistan Turks and Caicos IslandsUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVaticanVaticanVenezuelaVietnamVirgin Islands (UK));Virgin Islands (USA));WalesWallis and Futuna IslandsYemenZambiaZanzibar Zimbabwe ')]</value>
+      <webElementGuid>9a3a4fe1-68ba-4fa2-a9f1-cc294f82ba7c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
