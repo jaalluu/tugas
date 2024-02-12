@@ -37,7 +37,10 @@ WebUI.click(findTestObject('Object Repository/buy item/Page_Advantage Shopping (
 
 WebUI.click(findTestObject('Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/buy item/Page_Advantage Shopping (2)/a_REMOVE'))
+
 WebUI.delay(3)
 
 WebUI.closeBrowser()
-

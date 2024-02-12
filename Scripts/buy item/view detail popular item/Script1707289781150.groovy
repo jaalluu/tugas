@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/buy item/Page_Advantage Shopping/a_POPULAR ITEMS'))
+
+WebUI.click(findTestObject('Object Repository/buy item/Page_Advantage Shopping/label_View Details'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
+
+

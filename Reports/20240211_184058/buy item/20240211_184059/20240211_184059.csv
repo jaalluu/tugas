@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+buy item,Chrome 121.0.0.0,,,11-02-2024 18:41:14,11-02-2024 18:41:34,20.290s,PASSED
+,,,,,,,
+Test Cases/buy item/view detail popular item,Chrome 121.0.0.0,,,11-02-2024 18:41:14,11-02-2024 18:41:34,20.222s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,11-02-2024 18:41:14,11-02-2024 18:41:15,1.315s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,11-02-2024 18:41:15,11-02-2024 18:41:21,5.933s,PASSED
+delay(10),Chrome 121.0.0.0,,,11-02-2024 18:41:21,11-02-2024 18:41:31,10.021s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping/a_POPULAR ITEMS""))",Chrome 121.0.0.0,,,11-02-2024 18:41:31,11-02-2024 18:41:32,0.343s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping/label_View Details""))",Chrome 121.0.0.0,,,11-02-2024 18:41:32,11-02-2024 18:41:32,0.392s,PASSED
+delay(2),Chrome 121.0.0.0,,,11-02-2024 18:41:32,11-02-2024 18:41:34,2.010s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,11-02-2024 18:41:34,11-02-2024 18:41:34,0.101s,PASSED
