@@ -71,6 +71,12 @@
       <value></value>
       <variableId>ea27159b-176a-40f4-b96c-6e61380339ff</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>db48abc2-cecc-413f-a3e6-515fd9e70b3b</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -147,5 +153,12 @@
       <id>ea27159b-176a-40f4-b96c-6e61380339ff</id>
       <masked>false</masked>
       <name>postal</name>
+   </variable>
+   <variable>
+      <defaultValue>'israel'</defaultValue>
+      <description></description>
+      <id>db48abc2-cecc-413f-a3e6-515fd9e70b3b</id>
+      <masked>false</masked>
+      <name>country</name>
    </variable>
 </TestCaseEntity>

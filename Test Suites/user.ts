@@ -83,11 +83,17 @@
          <value></value>
          <variableId>ea27159b-176a-40f4-b96c-6e61380339ff</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>db48abc2-cecc-413f-a3e6-515fd9e70b3b</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>62c39d3e-38c9-4195-805b-9d63edc80f0f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/user/login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -115,7 +121,7 @@
    <testCaseLink>
       <guid>8177ac7b-af04-4a33-8e12-680892af8293</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/user/logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

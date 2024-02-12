@@ -41,12 +41,34 @@ WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- 
 WebUI.setText(findTestObject('Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'), 
     phone)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
-    'object:250', true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+//    'object:250', true)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Checkout  Katalon Shop/input_concat(id(, , select2-billing_country_d3312d'), 
-    Keys.chord(Keys.ENTER))
+//WebUI.sendKeys(findTestObject('Object Repository/Page_Checkout  Katalon Shop/input_concat(id(, , select2-billing_country_d3312d'), 
+//    Keys.chord(Keys.ENTER))
 
+	switch (country) { 
+		case 'indonesia': 
+		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
+			'object:250', true)
+			break 
+		
+		case 'malaysia': 
+		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
+			'object:282', true)
+			break 
+		
+		case 'iran': 
+		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
+			'object:251', true)
+			break 
+			
+		case 'israel':
+		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
+			'object:255', true)
+			break
+		}
+		
 WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_Country_cityRegisterPage'), city)
 
 WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'), address)
