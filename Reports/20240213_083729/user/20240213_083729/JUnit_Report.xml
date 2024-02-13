@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="user" time="114.382" tests="3" failures="0" errors="0">
+   <testsuite name="user" tests="3" failures="0" errors="0" time="114.382" skipped="0" timestamp="13-02-2024T08:37:33" hostname="piawaitrisulo - 172.16.213.168" id="Test Suites/user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/tugas/Reports/20240213_083729/user/20240213_083729"/>
+         <property name="logFiles" value="/Users/jalu/git/tugas/Reports/20240213_083729/user/20240213_083729/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - 172.16.213.168"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.168"/>
+         <property name="sessionId" value="dd061dda4786dee9a7ecaa45770f59e5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/user/create account" time="47.795" classname="Test Cases/user/create account" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:37:33 - [TEST_CASE][PASSED] - Test Cases/user/create account: Test Cases/user/create account
+
+13-02-2024T08:37:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:37:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:37:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:37:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:37:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:37:41 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__usernameRegisterPage"), username): Text 'jalu3' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:38:00 - [MESSAGE][PASSED] - Text 'jalu3' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__emailRegisterPage"), email): Text 'jalu3@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:38:01 - [MESSAGE][PASSED] - Text 'jalu3@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:38:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__passwordRegisterPage"), password): Text 'Testing3' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:38:02 - [MESSAGE][PASSED] - Text 'Testing3' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:38:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__confirm_passwordRegisterPage"), confirm_password): Text 'Testing3' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:38:03 - [MESSAGE][PASSED] - Text 'Testing3' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:38:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname): Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:38:05 - [MESSAGE][PASSED] - Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:38:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033"), lastname): Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:38:06 - [MESSAGE][PASSED] - Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:38:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone): Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:38:07 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:38:07 - [TEST_STEP][PASSED] - switch (country): null
+
+13-02-2024T08:38:07 - [TEST_STEP][PASSED] - case "iran":: null
+
+13-02-2024T08:38:07 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:251", true): All options with value 'object:251' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:38:10 - [MESSAGE][PASSED] - All options with value 'object:251' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:38:10 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T08:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_Country_cityRegisterPage"), city): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:38:11 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:38:12 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54"), state): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:38:13 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f"), postal): Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:38:14 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:38:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:38:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/button_REGISTER")): Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:38:17 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:38:17 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:38:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:38:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:38:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:38:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/create account" time="34.466" classname="Test Cases/user/create account" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:38:21 - [TEST_CASE][PASSED] - Test Cases/user/create account: Test Cases/user/create account
+
+13-02-2024T08:38:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:38:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:38:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:38:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:38:22 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:38:25 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:38:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__usernameRegisterPage"), username): Text 'jalu4' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:38:35 - [MESSAGE][PASSED] - Text 'jalu4' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__emailRegisterPage"), email): Text 'jalu4@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:38:36 - [MESSAGE][PASSED] - Text 'jalu4@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__passwordRegisterPage"), password): Text 'Testing4' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:38:38 - [MESSAGE][PASSED] - Text 'Testing4' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__confirm_passwordRegisterPage"), confirm_password): Text 'Testing4' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:38:39 - [MESSAGE][PASSED] - Text 'Testing4' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname): Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:38:40 - [MESSAGE][PASSED] - Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033"), lastname): Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:38:41 - [MESSAGE][PASSED] - Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:38:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone): Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:38:42 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:38:42 - [TEST_STEP][PASSED] - switch (country): null
+
+13-02-2024T08:38:42 - [TEST_STEP][PASSED] - case "israel":: null
+
+13-02-2024T08:38:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:255", true): All options with value 'object:255' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:38:45 - [MESSAGE][PASSED] - All options with value 'object:255' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:38:45 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T08:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_Country_cityRegisterPage"), city): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:38:45 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:38:47 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54"), state): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:38:48 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f"), postal): Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:38:49 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:38:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:38:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/button_REGISTER")): Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:38:52 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:38:52 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:38:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:38:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:38:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/create account" time="31.898" classname="Test Cases/user/create account" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:38:56 - [TEST_CASE][PASSED] - Test Cases/user/create account: Test Cases/user/create account
+
+13-02-2024T08:38:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:38:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:38:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:38:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:38:56 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:38:59 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:39:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT")): Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT' is clicked on
+
+13-02-2024T08:39:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__usernameRegisterPage"), username): Text 'jalu5' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:39:07 - [MESSAGE][PASSED] - Text 'jalu5' is set on object 'Object Repository/user/create account (1)/input__usernameRegisterPage'
+
+13-02-2024T08:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__emailRegisterPage"), email): Text 'jalu5@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:39:08 - [MESSAGE][PASSED] - Text 'jalu5@gmail.com' is set on object 'Object Repository/user/create account (1)/input__emailRegisterPage'
+
+13-02-2024T08:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__passwordRegisterPage"), password): Text 'Testing5' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:39:10 - [MESSAGE][PASSED] - Text 'Testing5' is set on object 'Object Repository/user/create account (1)/input__passwordRegisterPage'
+
+13-02-2024T08:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input__confirm_passwordRegisterPage"), confirm_password): Text 'Testing5' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:39:11 - [MESSAGE][PASSED] - Text 'Testing5' is set on object 'Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'
+
+13-02-2024T08:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname): Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:39:12 - [MESSAGE][PASSED] - Text 'jalu' is set on object 'Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'
+
+13-02-2024T08:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033"), lastname): Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:39:13 - [MESSAGE][PASSED] - Text 'pawening' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'
+
+13-02-2024T08:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone): Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:39:14 - [MESSAGE][PASSED] - Text '081234567890' is set on object 'Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'
+
+13-02-2024T08:39:14 - [TEST_STEP][PASSED] - switch (country): null
+
+13-02-2024T08:39:14 - [TEST_STEP][PASSED] - case "indonesia":: null
+
+13-02-2024T08:39:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:250", true): All options with value 'object:250' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:39:17 - [MESSAGE][PASSED] - All options with value 'object:250' are selected in object 'Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'  using regular expression
+
+13-02-2024T08:39:17 - [TEST_STEP][PASSED] - break: null
+
+13-02-2024T08:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_Country_cityRegisterPage"), city): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:39:17 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_Country_cityRegisterPage'
+
+13-02-2024T08:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3"), address): Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:39:18 - [MESSAGE][PASSED] - Text 'tebet' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'
+
+13-02-2024T08:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54"), state): Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:39:20 - [MESSAGE][PASSED] - Text 'jakarta' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'
+
+13-02-2024T08:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f"), postal): Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:39:21 - [MESSAGE][PASSED] - Text '12345' is set on object 'Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'
+
+13-02-2024T08:39:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450")): Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:39:21 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450' is clicked on
+
+13-02-2024T08:39:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:39:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/create account (1)/button_REGISTER")): Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/user/create account (1)/button_REGISTER' is clicked on
+
+13-02-2024T08:39:23 - [TEST_STEP][PASSED] - navigateToUrl("https://advantageonlineshopping.com/#/"): Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:39:24 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/#/' successfully
+
+13-02-2024T08:39:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T08:39:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T08:39:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:39:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T08:37:33 - [TEST_SUITE][PASSED] - user: Test Cases/user/create account]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

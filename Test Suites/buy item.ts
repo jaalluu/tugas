@@ -14,15 +14,8 @@
    <testCaseLink>
       <guid>768978d1-8364-4033-8cfd-e446b6425605</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/buy item/view detail popular item</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>46f83178-7f5d-43de-a25d-bd5b5ebfe15c</guid>
-      <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/buy item/delete from chart</testCaseId>
+      <testCaseId>Test Cases/buy item/view detail popular item</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -33,9 +26,16 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>64698fb3-8f64-46d4-829b-6bf10b583f77</guid>
+      <guid>46f83178-7f5d-43de-a25d-bd5b5ebfe15c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
+      <testCaseId>Test Cases/buy item/delete from chart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64698fb3-8f64-46d4-829b-6bf10b583f77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/buy item/checkout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

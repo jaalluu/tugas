@@ -34,48 +34,52 @@ WebUI.setText(findTestObject('Object Repository/user/create account (1)/input__p
 
 WebUI.setText(findTestObject('Object Repository/user/create account (1)/input__confirm_passwordRegisterPage'), confirm_password)
 
-WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'), firstname)
+WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage'), 
+    firstname)
 
-WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'), lastname)
+WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033'), 
+    lastname)
 
 WebUI.setText(findTestObject('Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a'), 
     phone)
 
 //WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
 //    'object:250', true)
-
 //WebUI.sendKeys(findTestObject('Object Repository/Page_Checkout  Katalon Shop/input_concat(id(, , select2-billing_country_d3312d'), 
 //    Keys.chord(Keys.ENTER))
+switch (country) {
+    case 'indonesia':
+        WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+            'object:250', true)
 
-	switch (country) { 
-		case 'indonesia': 
-		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
-			'object:250', true)
-			break 
-		
-		case 'malaysia': 
-		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
-			'object:282', true)
-			break 
-		
-		case 'iran': 
-		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
-			'object:251', true)
-			break 
-			
-		case 'israel':
-		WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'),
-			'object:255', true)
-			break
-		}
-		
+        break
+    case 'malaysia':
+        WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+            'object:282', true)
+
+        break
+    case 'iran':
+        WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+            'object:251', true)
+
+        break
+    case 'israel':
+        WebUI.selectOptionByValue(findTestObject('Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a'), 
+            'object:255', true)
+
+        break
+}
+
 WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_Country_cityRegisterPage'), city)
 
-WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'), address)
+WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3'), 
+    address)
 
-WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'), state)
+WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54'), 
+    state)
 
-WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'), postal)
+WebUI.setText(findTestObject('Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f'), 
+    postal)
 
 WebUI.click(findTestObject('Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450'))
 
@@ -84,4 +88,8 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/user/create account (1)/button_REGISTER'))
 
 WebUI.navigateToUrl('https://advantageonlineshopping.com/#/')
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 

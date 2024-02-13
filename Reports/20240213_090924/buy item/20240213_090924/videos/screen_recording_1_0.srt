@@ -1,0 +1,56 @@
+1
+00:00:00,088 --> 00:00:01,491
+1. openBrowser("")
+
+2
+00:00:01,497 --> 00:00:03,888
+5. navigateToUrl(url)
+
+3
+00:00:03,888 --> 00:00:13,911
+9. delay(10)
+
+4
+00:00:13,911 --> 00:00:14,209
+13. click(findTestObject("Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:14,209 --> 00:00:15,087
+17. setText(findTestObject("Object Repository/user/login/input_OR_username"), "jalu1")
+
+6
+00:00:15,090 --> 00:00:16,438
+21. setText(findTestObject("Object Repository/user/login/input_Username_password"), "Testing1")
+
+7
+00:00:16,439 --> 00:00:16,913
+25. click(findTestObject("Object Repository/user/login/button_SIGN IN"))
+
+8
+00:00:16,914 --> 00:00:19,918
+29. delay(3)
+
+9
+00:00:19,919 --> 00:00:20,182
+33. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS"))
+
+10
+00:00:20,182 --> 00:00:20,544
+37. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details"))
+
+11
+00:00:20,545 --> 00:00:22,550
+41. delay(2)
+
+12
+00:00:22,550 --> 00:00:22,552
+45. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus"))
+
+13
+00:00:22,552 --> 00:00:22,553
+49. delay(2)
+
+14
+00:00:22,553 --> 00:00:57,857
+53. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART"))
+

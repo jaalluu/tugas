@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+buy item,Chrome 121.0.0.0,,,13-02-2024 09:03:32,13-02-2024 09:04:50,1m - 18.266s,PASSED
+,,,,,,,
+Test Cases/buy item/add to chart more than 1 item,Chrome 121.0.0.0,,,13-02-2024 09:04:26,13-02-2024 09:04:50,24.366s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 09:04:26,13-02-2024 09:04:27,0.869s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 09:04:27,13-02-2024 09:04:29,2.467s,PASSED
+delay(10),Chrome 121.0.0.0,,,13-02-2024 09:04:29,13-02-2024 09:04:39,10.011s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS""))",Chrome 121.0.0.0,,,13-02-2024 09:04:39,13-02-2024 09:04:39,0.284s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details""))",Chrome 121.0.0.0,,,13-02-2024 09:04:39,13-02-2024 09:04:40,0.376s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:04:40,13-02-2024 09:04:42,2.002s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus""))",Chrome 121.0.0.0,,,13-02-2024 09:04:42,13-02-2024 09:04:42,0.359s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:04:42,13-02-2024 09:04:44,2.005s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART""))",Chrome 121.0.0.0,,,13-02-2024 09:04:44,13-02-2024 09:04:44,0.250s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart""))",Chrome 121.0.0.0,,,13-02-2024 09:04:44,13-02-2024 09:04:45,0.575s,PASSED
+delay(3),Chrome 121.0.0.0,,,13-02-2024 09:04:45,13-02-2024 09:04:48,3.003s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 09:04:48,13-02-2024 09:04:48,0.102s,PASSED

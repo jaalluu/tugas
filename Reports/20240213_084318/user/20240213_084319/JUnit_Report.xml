@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="user" time="90.592" tests="3" failures="0" errors="0">
+   <testsuite name="user" tests="3" failures="0" errors="0" time="90.592" skipped="0" timestamp="13-02-2024T08:43:27" hostname="piawaitrisulo - 172.16.213.168" id="Test Suites/user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/tugas/Reports/20240213_084318/user/20240213_084319"/>
+         <property name="logFiles" value="/Users/jalu/git/tugas/Reports/20240213_084318/user/20240213_084319/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - 172.16.213.168"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.168"/>
+         <property name="sessionId" value="dc5e467de803c117c6e9adaf7990455e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/user/login" time="32.118" classname="Test Cases/user/login" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:43:27 - [TEST_CASE][PASSED] - Test Cases/user/login: Test Cases/user/login
+
+13-02-2024T08:43:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:43:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:43:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:43:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:43:28 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:43:36 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:43:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T08:43:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T08:43:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/login/input_OR_username"), username): Text 'jalu3' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:43:52 - [MESSAGE][PASSED] - Text 'jalu3' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:43:52 - [TEST_STEP][PASSED] - passwd = encode(getDefault(password)): null
+
+13-02-2024T08:43:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/user/login/input_Username_password"), passwd): Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:43:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/button_SIGN IN")): Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:43:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T08:43:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T08:43:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:43:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/login" time="36.058" classname="Test Cases/user/login" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:43:59 - [TEST_CASE][PASSED] - Test Cases/user/login: Test Cases/user/login
+
+13-02-2024T08:43:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:43:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:43:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:44:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:44:00 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:44:08 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:44:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T08:44:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T08:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:44:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/login/input_OR_username"), username): Text 'jalu4' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:44:28 - [MESSAGE][PASSED] - Text 'jalu4' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:44:28 - [TEST_STEP][PASSED] - passwd = encode(getDefault(password)): null
+
+13-02-2024T08:44:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/user/login/input_Username_password"), passwd): Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:44:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/button_SIGN IN")): Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:44:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T08:44:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T08:44:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:44:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/user/login" time="22.319" classname="Test Cases/user/login" status="PASSED">
+         <system-out><![CDATA[13-02-2024T08:44:35 - [TEST_CASE][PASSED] - Test Cases/user/login: Test Cases/user/login
+
+13-02-2024T08:44:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T08:44:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T08:44:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T08:44:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T08:44:36 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:44:39 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T08:44:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T08:44:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T08:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T08:44:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/login/input_OR_username"), username): Text 'jalu5' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:44:51 - [MESSAGE][PASSED] - Text 'jalu5' is set on object 'Object Repository/user/login/input_OR_username'
+
+13-02-2024T08:44:51 - [TEST_STEP][PASSED] - passwd = encode(getDefault(password)): null
+
+13-02-2024T08:44:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/user/login/input_Username_password"), passwd): Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:44:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/user/login/input_Username_password'
+
+13-02-2024T08:44:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/login/button_SIGN IN")): Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/user/login/button_SIGN IN' is clicked on
+
+13-02-2024T08:44:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T08:44:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T08:44:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T08:44:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T08:43:27 - [TEST_SUITE][PASSED] - user: Test Cases/user/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

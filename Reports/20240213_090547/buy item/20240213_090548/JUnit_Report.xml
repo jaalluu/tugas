@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="buy item" time="28.227" tests="1" failures="0" errors="0">
+   <testsuite name="buy item" tests="1" failures="0" errors="0" time="28.227" skipped="0" timestamp="13-02-2024T09:05:53" hostname="piawaitrisulo - 172.16.213.168" id="Test Suites/buy item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/tugas/Reports/20240213_090547/buy item/20240213_090548"/>
+         <property name="logFiles" value="/Users/jalu/git/tugas/Reports/20240213_090547/buy item/20240213_090548/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - 172.16.213.168"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.168"/>
+         <property name="sessionId" value="7485bd325a01c1a8ac6a2f7c54bd04a2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/buy item/delete from chart" time="28.162" classname="Test Cases/buy item/delete from chart" status="PASSED">
+         <system-out><![CDATA[13-02-2024T09:05:53 - [TEST_CASE][PASSED] - Test Cases/buy item/delete from chart: Test Cases/buy item/delete from chart
+
+13-02-2024T09:05:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T09:05:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T09:05:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T09:05:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T09:05:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:05:58 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:05:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T09:06:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T09:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS' is clicked on
+
+13-02-2024T09:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS' is clicked on
+
+13-02-2024T09:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details' is clicked on
+
+13-02-2024T09:06:09 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details' is clicked on
+
+13-02-2024T09:06:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:06:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' is clicked on
+
+13-02-2024T09:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' is clicked on
+
+13-02-2024T09:06:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:06:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART' is clicked on
+
+13-02-2024T09:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART' is clicked on
+
+13-02-2024T09:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart' is clicked on
+
+13-02-2024T09:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart' is clicked on
+
+13-02-2024T09:06:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:06:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (2)/a_REMOVE")): Object: 'Object Repository/buy item/Page_Advantage Shopping (2)/a_REMOVE' is clicked on
+
+13-02-2024T09:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (2)/a_REMOVE' is clicked on
+
+13-02-2024T09:06:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T09:06:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T09:06:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T09:06:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T09:05:53 - [TEST_SUITE][PASSED] - buy item: Test Cases/buy item/delete from chart]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

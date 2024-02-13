@@ -1,0 +1,64 @@
+1
+00:00:00,327 --> 00:00:02,526
+1. openBrowser("")
+
+2
+00:00:02,531 --> 00:00:07,626
+5. navigateToUrl(url)
+
+3
+00:00:07,628 --> 00:00:12,809
+9. click(findTestObject("Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser"))
+
+4
+00:00:12,810 --> 00:00:13,329
+13. click(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT"))
+
+5
+00:00:13,329 --> 00:00:27,386
+17. setText(findTestObject("Object Repository/user/create account (1)/input__usernameRegisterPage"), username)
+
+6
+00:00:27,387 --> 00:00:28,469
+21. setText(findTestObject("Object Repository/user/create account (1)/input__emailRegisterPage"), email)
+
+7
+00:00:28,470 --> 00:00:29,533
+25. setText(findTestObject("Object Repository/user/create account (1)/input__passwordRegisterPage"), password)
+
+8
+00:00:29,533 --> 00:00:30,669
+29. setText(findTestObject("Object Repository/user/create account (1)/input__confirm_passwordRegisterPage"), confirm_password)
+
+9
+00:00:30,669 --> 00:00:31,804
+33. setText(findTestObject("Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage"), firstname)
+
+10
+00:00:31,804 --> 00:00:32,940
+37. setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033"), lastname)
+
+11
+00:00:32,940 --> 00:00:34,094
+41. setText(findTestObject("Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a"), phone)
+
+12
+00:00:34,094 --> 00:00:34,097
+45. switch (country)
+
+13
+00:00:34,097 --> 00:00:36,664
+2. selectOptionByValue(findTestObject("Object Repository/user/create account (1)/select_AfganistanAlbaniaAlgeriaAmerican Sam_3cef8a"), "object:251", true)
+
+14
+00:00:36,665 --> 00:00:36,666
+6. break
+
+15
+00:00:36,666 --> 00:00:37,475
+49. setText(findTestObject("Object Repository/user/create account (1)/input_Country_cityRegisterPage"), city)
+
+16
+00:00:37,475 --> 00:00:38,921
+53. setText(findTestObject("Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3"), address)
+

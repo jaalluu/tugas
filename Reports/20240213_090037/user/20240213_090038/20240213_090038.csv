@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+user,Chrome 121.0.0.0,,,13-02-2024 09:00:43,13-02-2024 09:01:08,24.787s,PASSED
+,,,,,,,
+Test Cases/user/logout,Chrome 121.0.0.0,,,13-02-2024 09:00:44,13-02-2024 09:01:08,24.722s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 09:00:44,13-02-2024 09:00:45,1.488s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 09:00:45,13-02-2024 09:00:48,2.968s,PASSED
+delay(10),Chrome 121.0.0.0,,,13-02-2024 09:00:48,13-02-2024 09:00:58,10.024s,PASSED
+"click(findTestObject(""Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,13-02-2024 09:00:58,13-02-2024 09:00:59,0.314s,PASSED
+"setText(findTestObject(""Object Repository/user/logout/login (1)/input_OR_username""), ""jalu3"")",Chrome 121.0.0.0,,,13-02-2024 09:00:59,13-02-2024 09:01:00,0.879s,PASSED
+passwd = CryptoUtil.encode(CryptoUtil.getDefault(password)),Chrome 121.0.0.0,,,13-02-2024 09:01:00,13-02-2024 09:01:00,0.002s,NOT_RUN
+"setText(findTestObject(""Object Repository/user/logout/login (1)/input_Username_password""), ""Testing3"")",Chrome 121.0.0.0,,,13-02-2024 09:01:00,13-02-2024 09:01:01,1.332s,PASSED
+"click(findTestObject(""Object Repository/user/logout/login (1)/button_SIGN IN""))",Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:01,0.567s,PASSED
+"setText(findTestObject(""Object Repository/user/Page_Advantage Shopping/input_OR_username""), username)",Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:01,0.003s,NOT_RUN
+"click(findTestObject(""Object Repository/user/Page_Advantage Shopping/label_Password""))",Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:01,0.002s,NOT_RUN
+"setEncryptedText(findTestObject(""Object Repository/user/Page_Advantage Shopping/input_Username_password""), password)",Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:01,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/user/Page_Advantage Shopping/button_SIGN IN""))",Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:01,0.001s,NOT_RUN
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:01:01,13-02-2024 09:01:03,2.008s,PASSED
+"click(findTestObject(""Object Repository/user/Page_Advantage Shopping/svg_jalu3_menuUser""))",Chrome 121.0.0.0,,,13-02-2024 09:01:03,13-02-2024 09:01:04,0.268s,PASSED
+"click(findTestObject(""Object Repository/user/Page_Advantage Shopping/label_Sign out""))",Chrome 121.0.0.0,,,13-02-2024 09:01:04,13-02-2024 09:01:04,0.378s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:01:04,13-02-2024 09:01:06,2.009s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 09:01:06,13-02-2024 09:01:06,0.098s,PASSED

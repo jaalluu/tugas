@@ -1,0 +1,52 @@
+1
+00:00:00,002 --> 00:00:00,711
+1. openBrowser("")
+
+2
+00:00:00,716 --> 00:00:03,654
+5. navigateToUrl(url)
+
+3
+00:00:03,655 --> 00:00:13,661
+9. delay(10)
+
+4
+00:00:13,661 --> 00:00:15,986
+13. click(findTestObject("Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:15,987 --> 00:00:16,869
+17. setText(findTestObject("Object Repository/user/logout/login (1)/input_OR_username"), "jalu3")
+
+6
+00:00:16,869 --> 00:00:16,869
+21. passwd = CryptoUtil.encode(CryptoUtil.getDefault(password))
+
+7
+00:00:16,869 --> 00:00:18,209
+25. setText(findTestObject("Object Repository/user/logout/login (1)/input_Username_password"), "Testing3")
+
+8
+00:00:18,210 --> 00:00:18,678
+29. click(findTestObject("Object Repository/user/logout/login (1)/button_SIGN IN"))
+
+9
+00:00:18,679 --> 00:00:18,679
+33. setText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_OR_username"), username)
+
+10
+00:00:18,679 --> 00:00:18,680
+37. click(findTestObject("Object Repository/user/Page_Advantage Shopping/label_Password"))
+
+11
+00:00:18,680 --> 00:00:18,680
+41. setEncryptedText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_Username_password"), password)
+
+12
+00:00:18,680 --> 00:00:18,681
+45. click(findTestObject("Object Repository/user/Page_Advantage Shopping/button_SIGN IN"))
+
+13
+00:00:18,681 --> 00:00:20,683
+49. delay(2)
+

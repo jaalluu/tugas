@@ -1,0 +1,80 @@
+1
+00:00:00,001 --> 00:00:00,800
+1. openBrowser("")
+
+2
+00:00:00,800 --> 00:00:03,749
+5. navigateToUrl(url)
+
+3
+00:00:03,752 --> 00:00:13,760
+9. delay(10)
+
+4
+00:00:13,760 --> 00:00:14,031
+13. click(findTestObject("Object Repository/user/login/svg_CHECKOUT  (0.00)_menuUser"))
+
+5
+00:00:14,031 --> 00:00:14,887
+17. setText(findTestObject("Object Repository/user/login/input_OR_username"), "jalu1")
+
+6
+00:00:14,887 --> 00:00:16,229
+21. setText(findTestObject("Object Repository/user/login/input_Username_password"), "Testing1")
+
+7
+00:00:16,229 --> 00:00:16,697
+25. click(findTestObject("Object Repository/user/login/button_SIGN IN"))
+
+8
+00:00:16,697 --> 00:00:19,704
+29. delay(3)
+
+9
+00:00:19,704 --> 00:00:19,954
+33. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS"))
+
+10
+00:00:19,954 --> 00:00:20,330
+37. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details"))
+
+11
+00:00:20,330 --> 00:00:22,332
+41. delay(2)
+
+12
+00:00:22,332 --> 00:00:22,333
+45. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus"))
+
+13
+00:00:22,333 --> 00:00:22,333
+49. delay(2)
+
+14
+00:00:22,333 --> 00:00:22,795
+53. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART"))
+
+15
+00:00:22,795 --> 00:00:24,832
+57. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart"))
+
+16
+00:00:24,833 --> 00:00:27,839
+61. delay(3)
+
+17
+00:00:27,839 --> 00:00:27,843
+65. tObj = new com.kms.katalon.core.testobject.TestObject()
+
+18
+00:00:27,843 --> 00:00:27,846
+69. tObj.addProperty("xpath", EQUALS, "/html/body/div[3]/section/article/div[1]/table/tbody/tr/td[5]/label[2]")
+
+19
+00:00:27,846 --> 00:00:28,086
+73. error_msg_in_page = getText(tObj)
+
+20
+00:00:28,087 --> 00:00:28,090
+77. assert error_msg_in_page != "1"
+

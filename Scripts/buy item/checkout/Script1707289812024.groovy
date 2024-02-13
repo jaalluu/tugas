@@ -57,7 +57,7 @@ WebUI.delay(3)
 
 	String error_msg_in_page = WebUI.getText(tObj)
 
-	assert error_msg_in_page != '2'
+	assert error_msg_in_page != '0'
 
 //	def quantity = WebUI.verifyElementVisible(findTestObject('/html/body/div[3]/section/article/div[1]/table/tbody/tr/td[5]/label[2]'))
 

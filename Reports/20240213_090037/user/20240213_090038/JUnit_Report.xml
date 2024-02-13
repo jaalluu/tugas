@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="user" time="24.787" tests="1" failures="0" errors="0">
+   <testsuite name="user" tests="1" failures="0" errors="0" time="24.787" skipped="0" timestamp="13-02-2024T09:00:43" hostname="piawaitrisulo - 172.16.213.168" id="Test Suites/user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/tugas/Reports/20240213_090037/user/20240213_090038"/>
+         <property name="logFiles" value="/Users/jalu/git/tugas/Reports/20240213_090037/user/20240213_090038/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - 172.16.213.168"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.168"/>
+         <property name="sessionId" value="e2981767dd410edf7db08bdc54126d04"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/user/logout" time="24.722" classname="Test Cases/user/logout" status="PASSED">
+         <system-out><![CDATA[13-02-2024T09:00:44 - [TEST_CASE][PASSED] - Test Cases/user/logout: Test Cases/user/logout
+
+13-02-2024T09:00:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T09:00:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T09:00:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T09:00:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T09:00:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:00:48 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:00:48 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T09:00:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T09:00:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser")): Object: 'Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T09:00:59 - [MESSAGE][PASSED] - Object: 'Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser' is clicked on
+
+13-02-2024T09:00:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/logout/login (1)/input_OR_username"), "jalu3"): Text 'jalu3' is set on object 'Object Repository/user/logout/login (1)/input_OR_username'
+
+13-02-2024T09:01:00 - [MESSAGE][PASSED] - Text 'jalu3' is set on object 'Object Repository/user/logout/login (1)/input_OR_username'
+
+13-02-2024T09:01:00 - [TEST_STEP][NOT_RUN] - passwd = CryptoUtil.encode(CryptoUtil.getDefault(password)): NOT_RUN: passwd = CryptoUtil.encode(CryptoUtil.getDefault(password))
+
+13-02-2024T09:01:00 - [MESSAGE][NOT_RUN] - NOT_RUN: passwd = CryptoUtil.encode(CryptoUtil.getDefault(password))
+
+13-02-2024T09:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/user/logout/login (1)/input_Username_password"), "Testing3"): Text 'Testing3' is set on object 'Object Repository/user/logout/login (1)/input_Username_password'
+
+13-02-2024T09:01:01 - [MESSAGE][PASSED] - Text 'Testing3' is set on object 'Object Repository/user/logout/login (1)/input_Username_password'
+
+13-02-2024T09:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/logout/login (1)/button_SIGN IN")): Object: 'Object Repository/user/logout/login (1)/button_SIGN IN' is clicked on
+
+13-02-2024T09:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/user/logout/login (1)/button_SIGN IN' is clicked on
+
+13-02-2024T09:01:01 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_OR_username"), username): NOT_RUN: setText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_OR_username"), username)
+
+13-02-2024T09:01:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_OR_username"), username)
+
+13-02-2024T09:01:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/user/Page_Advantage Shopping/label_Password")): NOT_RUN: click(findTestObject("Object Repository/user/Page_Advantage Shopping/label_Password"))
+
+13-02-2024T09:01:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/user/Page_Advantage Shopping/label_Password"))
+
+13-02-2024T09:01:01 - [TEST_STEP][NOT_RUN] - setEncryptedText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_Username_password"), password): NOT_RUN: setEncryptedText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_Username_password"), password)
+
+13-02-2024T09:01:01 - [MESSAGE][NOT_RUN] - NOT_RUN: setEncryptedText(findTestObject("Object Repository/user/Page_Advantage Shopping/input_Username_password"), password)
+
+13-02-2024T09:01:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/user/Page_Advantage Shopping/button_SIGN IN")): NOT_RUN: click(findTestObject("Object Repository/user/Page_Advantage Shopping/button_SIGN IN"))
+
+13-02-2024T09:01:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/user/Page_Advantage Shopping/button_SIGN IN"))
+
+13-02-2024T09:01:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:01:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/Page_Advantage Shopping/svg_jalu3_menuUser")): Object: 'Object Repository/user/Page_Advantage Shopping/svg_jalu3_menuUser' is clicked on
+
+13-02-2024T09:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/user/Page_Advantage Shopping/svg_jalu3_menuUser' is clicked on
+
+13-02-2024T09:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/user/Page_Advantage Shopping/label_Sign out")): Object: 'Object Repository/user/Page_Advantage Shopping/label_Sign out' is clicked on
+
+13-02-2024T09:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/user/Page_Advantage Shopping/label_Sign out' is clicked on
+
+13-02-2024T09:01:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:01:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:01:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T09:01:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T09:00:43 - [TEST_SUITE][PASSED] - user: Test Cases/user/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

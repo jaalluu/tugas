@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+user,Chrome 121.0.0.0,,,13-02-2024 08:37:33,13-02-2024 08:39:28,1m - 54.382s,PASSED
+,,,,,,,
+Test Cases/user/create account,Chrome 121.0.0.0,,,13-02-2024 08:37:33,13-02-2024 08:38:21,47.795s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 08:37:34,13-02-2024 08:37:36,1.939s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 08:37:36,13-02-2024 08:37:41,5.309s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,13-02-2024 08:37:41,13-02-2024 08:37:46,4.901s,PASSED
+"click(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,13-02-2024 08:37:46,13-02-2024 08:37:47,0.602s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,13-02-2024 08:37:47,13-02-2024 08:38:00,13.452s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,13-02-2024 08:38:00,13-02-2024 08:38:01,1.160s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,13-02-2024 08:38:01,13-02-2024 08:38:02,1.138s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__confirm_passwordRegisterPage""), confirm_password)",Chrome 121.0.0.0,,,13-02-2024 08:38:02,13-02-2024 08:38:03,1.138s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage""), firstname)",Chrome 121.0.0.0,,,13-02-2024 08:38:03,13-02-2024 08:38:05,1.133s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033""), lastname)",Chrome 121.0.0.0,,,13-02-2024 08:38:05,13-02-2024 08:38:06,1.145s,PASSED
+"setText(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phone)",Chrome 121.0.0.0,,,13-02-2024 08:38:06,13-02-2024 08:38:07,1.144s,PASSED
+switch (country),Chrome 121.0.0.0,,,13-02-2024 08:38:07,13-02-2024 08:38:10,2.884s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,13-02-2024 08:38:10,13-02-2024 08:38:11,0.923s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,13-02-2024 08:38:11,13-02-2024 08:38:12,1.123s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54""), state)",Chrome 121.0.0.0,,,13-02-2024 08:38:12,13-02-2024 08:38:13,1.138s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f""), postal)",Chrome 121.0.0.0,,,13-02-2024 08:38:13,13-02-2024 08:38:14,1.152s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,13-02-2024 08:38:14,13-02-2024 08:38:15,0.577s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:38:15,13-02-2024 08:38:17,2.013s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/button_REGISTER""))",Chrome 121.0.0.0,,,13-02-2024 08:38:17,13-02-2024 08:38:17,0.362s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 08:38:17,13-02-2024 08:38:17,0.042s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:38:17,13-02-2024 08:38:19,2.007s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 08:38:19,13-02-2024 08:38:19,0.107s,PASSED
+,,,,,,,
+Test Cases/user/create account,Chrome 121.0.0.0,,,13-02-2024 08:38:21,13-02-2024 08:38:56,34.466s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 08:38:21,13-02-2024 08:38:22,0.740s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 08:38:22,13-02-2024 08:38:25,3.418s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,13-02-2024 08:38:25,13-02-2024 08:38:31,5.436s,PASSED
+"click(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,13-02-2024 08:38:31,13-02-2024 08:38:31,0.585s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,13-02-2024 08:38:31,13-02-2024 08:38:35,3.783s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,13-02-2024 08:38:35,13-02-2024 08:38:36,1.164s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,13-02-2024 08:38:36,13-02-2024 08:38:38,1.132s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__confirm_passwordRegisterPage""), confirm_password)",Chrome 121.0.0.0,,,13-02-2024 08:38:38,13-02-2024 08:38:39,1.132s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage""), firstname)",Chrome 121.0.0.0,,,13-02-2024 08:38:39,13-02-2024 08:38:40,1.130s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033""), lastname)",Chrome 121.0.0.0,,,13-02-2024 08:38:40,13-02-2024 08:38:41,1.134s,PASSED
+"setText(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phone)",Chrome 121.0.0.0,,,13-02-2024 08:38:41,13-02-2024 08:38:42,1.133s,PASSED
+switch (country),Chrome 121.0.0.0,,,13-02-2024 08:38:42,13-02-2024 08:38:45,2.575s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,13-02-2024 08:38:45,13-02-2024 08:38:45,0.812s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,13-02-2024 08:38:45,13-02-2024 08:38:47,1.124s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54""), state)",Chrome 121.0.0.0,,,13-02-2024 08:38:47,13-02-2024 08:38:48,1.116s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f""), postal)",Chrome 121.0.0.0,,,13-02-2024 08:38:48,13-02-2024 08:38:49,1.122s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,13-02-2024 08:38:49,13-02-2024 08:38:49,0.472s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:38:49,13-02-2024 08:38:51,2.007s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/button_REGISTER""))",Chrome 121.0.0.0,,,13-02-2024 08:38:51,13-02-2024 08:38:52,0.261s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 08:38:52,13-02-2024 08:38:52,0.032s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:38:52,13-02-2024 08:38:54,2.003s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 08:38:54,13-02-2024 08:38:54,0.102s,PASSED
+,,,,,,,
+Test Cases/user/create account,Chrome 121.0.0.0,,,13-02-2024 08:38:56,13-02-2024 08:39:28,31.898s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 08:38:56,13-02-2024 08:38:56,0.650s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 08:38:56,13-02-2024 08:38:59,2.487s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/svg_CHECKOUT  (0.00)_menuUser""))",Chrome 121.0.0.0,,,13-02-2024 08:38:59,13-02-2024 08:39:04,4.650s,PASSED
+"click(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/a_CREATE NEW ACCOUNT""))",Chrome 121.0.0.0,,,13-02-2024 08:39:04,13-02-2024 08:39:04,0.572s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__usernameRegisterPage""), username)",Chrome 121.0.0.0,,,13-02-2024 08:39:04,13-02-2024 08:39:07,3.068s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__emailRegisterPage""), email)",Chrome 121.0.0.0,,,13-02-2024 08:39:07,13-02-2024 08:39:08,1.151s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__passwordRegisterPage""), password)",Chrome 121.0.0.0,,,13-02-2024 08:39:08,13-02-2024 08:39:10,1.126s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input__confirm_passwordRegisterPage""), confirm_password)",Chrome 121.0.0.0,,,13-02-2024 08:39:10,13-02-2024 08:39:11,1.135s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_PERSONAL DETAILS_first_nameRegisterPage""), firstname)",Chrome 121.0.0.0,,,13-02-2024 08:39:11,13-02-2024 08:39:12,1.122s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 30 character_last_nameR_6ef033""), lastname)",Chrome 121.0.0.0,,,13-02-2024 08:39:12,13-02-2024 08:39:13,1.129s,PASSED
+"setText(findTestObject(""Object Repository/user/create account/Page_Advantage Shopping/input_- Use maximum 30 character_phone_numb_7c938a""), phone)",Chrome 121.0.0.0,,,13-02-2024 08:39:13,13-02-2024 08:39:14,1.124s,PASSED
+switch (country),Chrome 121.0.0.0,,,13-02-2024 08:39:14,13-02-2024 08:39:17,2.529s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_Country_cityRegisterPage""), city)",Chrome 121.0.0.0,,,13-02-2024 08:39:17,13-02-2024 08:39:17,0.807s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 25 character_addressReg_9e23b3""), address)",Chrome 121.0.0.0,,,13-02-2024 08:39:17,13-02-2024 08:39:18,1.123s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 50 character_state__pro_272a54""), state)",Chrome 121.0.0.0,,,13-02-2024 08:39:18,13-02-2024 08:39:20,1.134s,PASSED
+"setText(findTestObject(""Object Repository/user/create account (1)/input_- Use maximum 10 character_postal_cod_639c2f""), postal)",Chrome 121.0.0.0,,,13-02-2024 08:39:20,13-02-2024 08:39:21,1.137s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/input_Receive exclusive offers and promotio_5c7450""))",Chrome 121.0.0.0,,,13-02-2024 08:39:21,13-02-2024 08:39:21,0.464s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:39:21,13-02-2024 08:39:23,2.007s,PASSED
+"click(findTestObject(""Object Repository/user/create account (1)/button_REGISTER""))",Chrome 121.0.0.0,,,13-02-2024 08:39:23,13-02-2024 08:39:23,0.257s,PASSED
+"navigateToUrl(""https://advantageonlineshopping.com/#/"")",Chrome 121.0.0.0,,,13-02-2024 08:39:23,13-02-2024 08:39:24,0.035s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 08:39:24,13-02-2024 08:39:26,2.006s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 08:39:26,13-02-2024 08:39:26,0.100s,PASSED

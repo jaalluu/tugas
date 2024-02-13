@@ -155,7 +155,7 @@
       <name>postal</name>
    </variable>
    <variable>
-      <defaultValue>'israel'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>db48abc2-cecc-413f-a3e6-515fd9e70b3b</id>
       <masked>false</masked>

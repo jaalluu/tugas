@@ -1,0 +1,28 @@
+1
+00:00:00,083 --> 00:00:01,505
+1. openBrowser("")
+
+2
+00:00:01,509 --> 00:00:04,238
+5. navigateToUrl(url)
+
+3
+00:00:04,238 --> 00:00:14,262
+9. delay(10)
+
+4
+00:00:14,263 --> 00:00:14,565
+13. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS"))
+
+5
+00:00:14,565 --> 00:00:14,831
+17. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details"))
+
+6
+00:00:14,832 --> 00:00:16,839
+21. delay(2)
+
+7
+00:00:16,840 --> 00:00:51,548
+25. click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus"))
+

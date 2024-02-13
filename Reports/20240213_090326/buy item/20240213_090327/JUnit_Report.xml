@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="buy item" time="78.266" tests="1" failures="0" errors="0">
+   <testsuite name="buy item" tests="1" failures="0" errors="0" time="78.266" skipped="0" timestamp="13-02-2024T09:03:32" hostname="piawaitrisulo - 172.16.213.168" id="Test Suites/buy item">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jalu/git/tugas/Reports/20240213_090326/buy item/20240213_090327"/>
+         <property name="logFiles" value="/Users/jalu/git/tugas/Reports/20240213_090326/buy item/20240213_090327/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="piawaitrisulo - 172.16.213.168"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="172.16.213.168"/>
+         <property name="sessionId" value="2fe3f2ef3be8b922b645d14960f68baa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/buy item/add to chart more than 1 item" time="24.366" classname="Test Cases/buy item/add to chart more than 1 item" status="PASSED">
+         <system-out><![CDATA[13-02-2024T09:04:26 - [TEST_CASE][PASSED] - Test Cases/buy item/add to chart more than 1 item: Test Cases/buy item/add to chart more than 1 item
+
+13-02-2024T09:04:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+13-02-2024T09:04:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+13-02-2024T09:04:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+13-02-2024T09:04:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+13-02-2024T09:04:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+13-02-2024T09:04:27 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:04:29 - [MESSAGE][PASSED] - Navigate to 'https://advantageonlineshopping.com/' successfully
+
+13-02-2024T09:04:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+13-02-2024T09:04:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+13-02-2024T09:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS' is clicked on
+
+13-02-2024T09:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS' is clicked on
+
+13-02-2024T09:04:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details' is clicked on
+
+13-02-2024T09:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details' is clicked on
+
+13-02-2024T09:04:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:04:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' is clicked on
+
+13-02-2024T09:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' is clicked on
+
+13-02-2024T09:04:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-02-2024T09:04:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-02-2024T09:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART' is clicked on
+
+13-02-2024T09:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART' is clicked on
+
+13-02-2024T09:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart")): Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart' is clicked on
+
+13-02-2024T09:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart' is clicked on
+
+13-02-2024T09:04:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+13-02-2024T09:04:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-02-2024T09:04:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+13-02-2024T09:04:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T09:03:32 - [TEST_SUITE][FAILED] - buy item: Test Cases/buy item/add to chart more than 1 item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at add to chart more than 1 item.run(add to chart more than 1 item:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707789807661.run(TempTestSuite1707789807661.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' located by '//div[@id='productProperties']/div[2]/e-sec-plus-minus/div/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[13-02-2024T09:03:32 - [TEST_SUITE][FAILED] - buy item: Test Cases/buy item/add to chart more than 1 item FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at add to chart more than 1 item.run(add to chart more than 1 item:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707789807661.run(TempTestSuite1707789807661.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus' located by '//div[@id='productProperties']/div[2]/e-sec-plus-minus/div/div[3]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -25,28 +25,27 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/user/logout/login (1)/svg_CHECKOUT  (0.00)_menuUser'))
 
-WebUI.setText(findTestObject('Object Repository/user/logout/login (1)/input_OR_username'), username)
+WebUI.setText(findTestObject('Object Repository/user/logout/login (1)/input_OR_username'), 'jalu3')
 
-def passwd = CryptoUtil.encode(CryptoUtil.getDefault(password))
+not_run: def passwd = CryptoUtil.encode(CryptoUtil.getDefault(password))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/user/logout/login (1)/input_Username_password'), passwd)
+WebUI.setText(findTestObject('Object Repository/user/logout/login (1)/input_Username_password'), 'Testing3')
 
 WebUI.click(findTestObject('Object Repository/user/logout/login (1)/button_SIGN IN'))
 
-not_run: WebUI.setText(findTestObject('Object Repository/user/logout/Page_Advantage Shopping/input_OR_username'), username)
+not_run: WebUI.setText(findTestObject('Object Repository/user/Page_Advantage Shopping/input_OR_username'), username)
 
-not_run: WebUI.click(findTestObject('Object Repository/user/logout/Page_Advantage Shopping/label_Password'))
+not_run: WebUI.click(findTestObject('Object Repository/user/Page_Advantage Shopping/label_Password'))
 
-not_run: WebUI.setEncryptedText(findTestObject('Object Repository/user/logout/Page_Advantage Shopping/input_Username_password'), 
-    password)
+not_run: WebUI.setEncryptedText(findTestObject('Object Repository/user/Page_Advantage Shopping/input_Username_password'), password)
 
-not_run: WebUI.click(findTestObject('Object Repository/user/logout/Page_Advantage Shopping/button_SIGN IN'))
+not_run: WebUI.click(findTestObject('Object Repository/user/Page_Advantage Shopping/button_SIGN IN'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/user/logout/svg_jalu1_menuUser'))
+WebUI.click(findTestObject('Object Repository/user/Page_Advantage Shopping/svg_jalu3_menuUser'))
 
-WebUI.click(findTestObject('Object Repository/user/logout/label_Sign out'))
+WebUI.click(findTestObject('Object Repository/user/Page_Advantage Shopping/label_Sign out'))
 
 WebUI.delay(2)
 

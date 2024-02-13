@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+buy item,Chrome 121.0.0.0,,,13-02-2024 09:05:53,13-02-2024 09:06:21,28.227s,PASSED
+,,,,,,,
+Test Cases/buy item/delete from chart,Chrome 121.0.0.0,,,13-02-2024 09:05:53,13-02-2024 09:06:21,28.162s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,13-02-2024 09:05:53,13-02-2024 09:05:55,1.425s,PASSED
+navigateToUrl(url),Chrome 121.0.0.0,,,13-02-2024 09:05:55,13-02-2024 09:05:58,3.106s,PASSED
+delay(10),Chrome 121.0.0.0,,,13-02-2024 09:05:58,13-02-2024 09:06:08,10.023s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/a_POPULAR ITEMS""))",Chrome 121.0.0.0,,,13-02-2024 09:06:08,13-02-2024 09:06:08,0.292s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/label_View Details""))",Chrome 121.0.0.0,,,13-02-2024 09:06:08,13-02-2024 09:06:09,0.377s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:06:09,13-02-2024 09:06:11,2.005s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/div_Quantity_plus""))",Chrome 121.0.0.0,,,13-02-2024 09:06:11,13-02-2024 09:06:11,0.362s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:06:11,13-02-2024 09:06:13,2.002s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/button_ADD TO CART""))",Chrome 121.0.0.0,,,13-02-2024 09:06:13,13-02-2024 09:06:13,0.264s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (1)/svg_Management Console_menuCart""))",Chrome 121.0.0.0,,,13-02-2024 09:06:13,13-02-2024 09:06:14,0.571s,PASSED
+delay(2),Chrome 121.0.0.0,,,13-02-2024 09:06:14,13-02-2024 09:06:16,2.008s,PASSED
+"click(findTestObject(""Object Repository/buy item/Page_Advantage Shopping (2)/a_REMOVE""))",Chrome 121.0.0.0,,,13-02-2024 09:06:16,13-02-2024 09:06:16,0.264s,PASSED
+delay(3),Chrome 121.0.0.0,,,13-02-2024 09:06:16,13-02-2024 09:06:19,3.007s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,13-02-2024 09:06:19,13-02-2024 09:06:19,0.093s,PASSED
